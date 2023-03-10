@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListCell?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="130.0" prefWidth="261.0" type="javafx.scene.control.ListCell" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <!-- <graphic>
+        <VBox>
+            <children>
+                <Label fx:id="titleLabel" />
+                <VBox>
+                    <children>
+                        <Label fx:id="commentLabel" />
+                        <Label fx:id="descriptionLabel"/>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </graphic>-->
+
+   <graphic>
+      <AnchorPane minWidth="200.0" prefHeight="118.0" prefWidth="260.0">
+         <children>
+            <Label fx:id="teleText" layoutX="57.0" layoutY="25.0" prefHeight="17.0" prefWidth="181.0" textAlignment="RIGHT" textFill="#2c08f8">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="addText" layoutX="14.0" layoutY="100.0" prefHeight="18.0" prefWidth="226.0">
+               <font>
+                  <Font name="Times New Roman" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="nameText" layoutX="14.0" layoutY="67.0" prefHeight="27.0" prefWidth="223.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/img_holder.png" />
+               </image>
+            </ImageView>
+            <Separator layoutX="9.0" layoutY="122.0" prefHeight="3.0" prefWidth="231.0" />
+            
+         </children>
+      </AnchorPane>
+   </graphic>
+</fx:root>

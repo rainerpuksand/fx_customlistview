@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="423.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fx_customlistview.HelloController">
+    <children>
+        <ListView fx:id="lv2" layoutX="222.0" layoutY="14.0" onMouseClicked="#listItemClicked" prefHeight="360.0" prefWidth="286.0" />
+        <Button fx:id="btn1" layoutX="57.0" layoutY="267.0" mnemonicParsing="false" onAction="#loadSimpleList" text="Simple" />
+        <Button layoutX="337.0" layoutY="384.0" mnemonicParsing="false" onAction="#loadCustomList" text="Custom" />
+        <ListView fx:id="lv1" layoutX="14.0" layoutY="15.0"  prefHeight="236.0" prefWidth="200.0" />
+        <Button layoutX="534.0" layoutY="349.0" mnemonicParsing="false" onAction="#change3rd_Name" text="Change3" />
+        <Button layoutX="534.0" layoutY="307.0" mnemonicParsing="false" onAction="#change3rd_NameNoIndex" text="NoIndex" />
+    </children>
+</AnchorPane>
